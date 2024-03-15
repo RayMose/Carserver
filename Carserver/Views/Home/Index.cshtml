@@ -15,7 +15,7 @@
                             <div class="banner-info-bg">
                                 <h5>We are qualified &amp; professional.</h5>
                                 <div class="banner-buttons">
-                                    <a class="btn btn-style btn-primary" href="~/Views/Home/About.cshtml">Read More</a>
+                                    <a class="btn btn-style btn-primary" href="@Url.Action("About", "Home")">Read More</a>  
                                     <a href="#small-dialog" class="popup-with-zoom-anim play-view">
                                         <span class="video-play-icon">
                                             <span class="fa fa-play"></span>
@@ -39,7 +39,7 @@
                             <div class="banner-info-bg">
                                 <h5>Honest Service For You Car Care.</h5>
                                 <div class="banner-buttons">
-                                    <a class="btn btn-style btn-primary" href="about.html">Read More</a>
+                                    <a class="btn btn-style btn-primary" href="@Url.Action("About", "Home")">Read More</a>
                                     <a href="#small-dialog" class="popup-with-zoom-anim play-view">
                                         <span class="video-play-icon">
                                             <span class="fa fa-play"></span>
@@ -63,7 +63,7 @@
                             <div class="banner-info-bg">
                                 <h5>We are qualified &amp; professional</h5>
                                 <div class="banner-buttons">
-                                    <a class="btn btn-style btn-primary" href="about.html">Read More</a>
+                                    <a class="btn btn-style btn-primary" href="@Url.Action("About", "Home")">Read More</a>
                                     <a href="#small-dialog1" class="popup-with-zoom-anim play-view">
                                         <span class="video-play-icon">
                                             <span class="fa fa-play"></span>
@@ -87,7 +87,7 @@
                             <div class="banner-info-bg">
                                 <h5>Honest Service For You Car Care.</h5>
                                 <div class="banner-buttons">
-                                    <a class="btn btn-style btn-primary" href="about.html">Read More</a>
+                                    <a class="btn btn-style btn-primary" href="@Url.Action("About", "Home")">Read More</a>
                                     <a href="#small-dialog3" class="popup-with-zoom-anim play-view">
                                         <span class="video-play-icon">
                                             <span class="fa fa-play"></span>
@@ -166,6 +166,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 <!-- //content-3-->
 <div style="margin: 8px auto; display: block; text-align:center;">
@@ -283,7 +284,6 @@
             </div>
         </div>
     </div>
-    </div>
 </section>
 <!--//features-4 -->
 <div style="margin: 8px auto; display: block; text-align:center;">
@@ -382,7 +382,7 @@
                                 <li> <span class="fa fa-check"></span> Tire Rotation</li>
                             </ul>
                             <div class="read-more mt-4 pt-lg-2">
-                                <a href="contact.html" class="btn btn-style btn-outline-primary"> Go Basic</a>
+                                <a href="@Url.Action("Contact", "Home")" class="btn btn-style btn-outline-primary"> Go Basic</a>
                             </div>
                         </div>
                     </div>
@@ -407,7 +407,7 @@
                             </ul>
                             <div class="read-more mt-4 pt-lg-2">
                                 <a href="contact.html" class="read-more">
-                                    <a href="contact.html" class="btn btn-style btn-primary"> Go Standard</a>
+                                    <a href="@Url.Action("Contact", "Home")" class="btn btn-style btn-primary"> Go Standard</a>
                                 </a>
                             </div>
                         </div>
