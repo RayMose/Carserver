@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignore the actual web.config file
+web.config
+
+# Ignore sensitive configuration keys
+FromEmail
+Password
+
